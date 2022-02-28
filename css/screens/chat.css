@@ -86,8 +86,8 @@
   border-radius: 0 0 50px 50px;
 }
 .reply__plus i {
-  font-size: 3vh;
-  margin-left: 4vw;
+  font-size: 2vh;
+  margin-left: 2vw;
 }
 .reply__message input {
   height: 3vh;
@@ -100,9 +100,9 @@
   font-size: 1.5vh;
 }
 .fa-smile-wink {
-  font-size: 3vh;
+  font-size: 2vh;
 }
 .fa-paper-plane {
-  font-size: 3vh;
+  font-size: 2vh;
   margin-left: 10px;
 }
