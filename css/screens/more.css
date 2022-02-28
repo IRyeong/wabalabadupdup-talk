@@ -1,0 +1,56 @@
+#body-more {
+  width: 100vw;
+  height: 100vh;
+}
+.more-grid {
+  display: grid;
+  width: 80vw;
+  height: 20vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+  box-sizing: border-box;
+  background-color: var(--rickhair);
+  gap: 2px;
+  border-radius: 10px;
+}
+.more-grid i {
+  font-size: 5vh;
+  text-align: center;
+}
+.more-grid__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.more-grid__item span {
+  font-size: 1.5vh;
+}
+.more-ad {
+  margin-top: 3vh;
+  width: 80vw;
+  height: 30vh;
+  position: relative;
+}
+.more-ad img {
+  width: 80vw;
+  height: 30vh;
+  border-radius: :10px;
+}
+.more-ad span:first-child {
+  position: absolute;
+  top: 0.5vh;
+  left: 1vw;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.more-ad span:last-child {
+  position: absolute;
+  bottom: 1vh;
+  color: whitesmoke;
+  right: 1vw;
+  background-color: rgba(0, 0, 0, 0.7);
+}
