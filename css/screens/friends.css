@@ -1,0 +1,86 @@
+#body-friends {
+  margin-bottom: 7vh;
+}
+@keyframes hideSplash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes hide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  background-color: whitesmoke;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplash 2s ease-in-out forwards;
+  z-index: 99;
+}
+#picture-splash {
+  width: 50vw;
+}
+#friends-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+#friends-header__title {
+  font-size: 4vh;
+}
+#friends-header__icons i {
+  font-size: 3vh;
+  margin-left: 0.5vh;
+}
+.friends-me {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2vh;
+  margin-top: 1vh;
+}
+.friends-bar {
+  height: 3px;
+  width: 80vw;
+  background-color: var(--rickhair);
+  margin-top: 1vh;
+}
+.friends-me__picture {
+  height: 8vh;
+  margin: 0 2vw;
+  border-radius: 20px;
+}
+.friends-me__name {
+  font-size: 2vh;
+  font-weight: 700;
+  margin-left: 5vw;
+}
+.friends-me__title {
+  background-color: var(--rickhair);
+  width: 6vw;
+  height: 2vh;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 5vh;
+  font-size: 1.5vh;
+  text-align: center;
+  margin-left: 2vw;
+}
+.friends-friends__title {
+  width: 12vw;
+}

@@ -1,0 +1,26 @@
+#to-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--rickhair);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20vw;
+  box-sizing: border-box;
+}
+
+#to-mobile__text {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) and (min-height: 1000px) {
+  #to-mobile {
+    display: none;
+  }
+}

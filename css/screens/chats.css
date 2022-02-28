@@ -1,0 +1,44 @@
+#body-chats {
+  height: 100vh;
+  width: 100vw;
+}
+.chats-friends-bar {
+  height: 2px;
+  width: 80vw;
+  background-color: var(--rickhair);
+  margin-top: 1vh;
+}
+.chats-friends {
+  display: flex;
+  align-items: center;
+  margin: 3vh 2vw;
+  width: 80vw;
+}
+.chats-space {
+  margin-top: 5vh;
+}
+.chats-friends__picture {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 20px;
+}
+.chats-friends__name {
+  font-size: 1.5vh;
+  margin-bottom: 10px;
+}
+.chats-friends-column {
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+.chats-friends-notification {
+  width: 3vh;
+  height: 3vh;
+  border-radius: 50%;
+  background-color: var(--rickhair);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
